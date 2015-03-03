@@ -7,6 +7,7 @@
 
 @interface DetailFeedViewController ()
 
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
 @property (weak, nonatomic) IBOutlet UIImageView *detailImageView;
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (weak, nonatomic) IBOutlet UILabel *forSaleLabel;
@@ -23,12 +24,15 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.activityIndicator startAnimating];
     // check to see if the image is in cahce, if not then fetch & cache it. image URL is the cache key
     // activity indicator needs to be setup
     NSString *imageURLString = self.vehicleDetail.photosDictionary[@"main_url"];
     UIImage *vehicleImage = [self.imageCache objectForKey:imageURLString];
     if (vehicleImage) {
         self.detailImageView.image = vehicleImage;
+        [self.activityIndicator stopAnimating];
+
     } else {
         // just the async call part from the previous VC
         NSURL *imageURL = [NSURL URLWithString:imageURLString];
@@ -39,10 +43,12 @@
                 NSString *errorMessage =
                 [NSString stringWithFormat:@"ERROR FETCHING DETAIL PHOTO -->%@", error];
                 [self logWithMessage:errorMessage];
+                [self.activityIndicator stopAnimating];
             } else {
                 UIImage *theImage = [[UIImage alloc] initWithData:data];
                 [self.imageCache setObject:theImage forKey:imageURLString];
                 self.detailImageView.image = theImage;
+                [self.activityIndicator stopAnimating];
             }
         }];
     }
