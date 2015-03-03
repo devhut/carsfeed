@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>photos</key>
+		<dict>
+			<key>main_url</key>
+			<string>http://devhut.me/axdemo/dakare90.jpg</string>
+		</dict>
+		<key>year</key>
+		<string>2011</string>
+		<key>color</key>
+		<string>Dakar Yellow</string>
+		<key>model_type</key>
+		<string>M3</string>
+		<key>chassis_type</key>
+		<string>E90 Saloon</string>
+		<key>for_sale</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>photos</key>
+		<dict>
+			<key>main_url</key>
+			<string>http://devhut.me/axdemo/e39.png</string>
+		</dict>
+		<key>year</key>
+		<string>2002</string>
+		<key>color</key>
+		<string>Le Mans Blue</string>
+		<key>model_type</key>
+		<string>M5</string>
+		<key>chassis_type</key>
+		<string>E39</string>
+		<key>for_sale</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>photos</key>
+		<dict>
+			<key>main_url</key>
+			<string>http://devhut.me/axdemo/e46csl.jpg</string>
+		</dict>
+		<key>year</key>
+		<string>2001</string>
+		<key>color</key>
+		<string>Silver Grey Metallic</string>
+		<key>model_type</key>
+		<string>M3 CSL</string>
+		<key>chassis_type</key>
+		<string>E46</string>
+		<key>for_sale</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>photos</key>
+		<dict>
+			<key>main_url</key>
+			<string>http://devhut.me/axdemo/e60.png</string>
+		</dict>
+		<key>year</key>
+		<string>2006</string>
+		<key>color</key>
+		<string>Cosmos Black</string>
+		<key>model_type</key>
+		<string>M5</string>
+		<key>chassis_type</key>
+		<string>E60</string>
+		<key>for_sale</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>photos</key>
+		<dict>
+			<key>main_url</key>
+			<string>http://devhut.me/axdemo/e303.jpg</string>
+		</dict>
+		<key>year</key>
+		<string>1990</string>
+		<key>color</key>
+		<string>Alpine White I</string>
+		<key>model_type</key>
+		<string>M3</string>
+		<key>chassis_type</key>
+		<string>E30</string>
+		<key>for_sale</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>photos</key>
+		<dict>
+			<key>main_url</key>
+			<string>http://devhut.me/axdemo/estroil1.jpg</string>
+		</dict>
+		<key>year</key>
+		<string>1999</string>
+		<key>color</key>
+		<string>Estoril Blue</string>
+		<key>model_type</key>
+		<string>M3</string>
+		<key>chassis_type</key>
+		<string>E36</string>
+		<key>for_sale</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>photos</key>
+		<dict>
+			<key>main_url</key>
+			<string>http://devhut.me/axdemo/gtr.jpg</string>
+		</dict>
+		<key>year</key>
+		<string>2000</string>
+		<key>color</key>
+		<string>Motorsport White</string>
+		<key>model_type</key>
+		<string>M3</string>
+		<key>chassis_type</key>
+		<string>E46</string>
+		<key>for_sale</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>photos</key>
+		<dict>
+			<key>main_url</key>
+			<string>http://devhut.me/axdemo/imola3.jpg</string>
+		</dict>
+		<key>year</key>
+		<string>2003</string>
+		<key>color</key>
+		<string>Imola Red</string>
+		<key>model_type</key>
+		<string>M3</string>
+		<key>chassis_type</key>
+		<string>E46</string>
+		<key>for_sale</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>photos</key>
+		<dict>
+			<key>main_url</key>
+			<string>http://devhut.me/axdemo/imolae30.jpg</string>
+		</dict>
+		<key>year</key>
+		<string>1990</string>
+		<key>color</key>
+		<string>Imola Red</string>
+		<key>model_type</key>
+		<string>M3</string>
+		<key>chassis_type</key>
+		<string>E30</string>
+		<key>for_sale</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>photos</key>
+		<dict>
+			<key>main_url</key>
+			<string>http://devhut.me/axdemo/whitee36saloon.jpg</string>
+		</dict>
+		<key>year</key>
+		<string>1997</string>
+		<key>color</key>
+		<string>Alpine White II</string>
+		<key>model_type</key>
+		<string>M3 Saloon</string>
+		<key>chassis_type</key>
+		<string>E36</string>
+		<key>for_sale</key>
+		<integer>1</integer>
+	</dict>
+</array>
+</plist>
